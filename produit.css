@@ -68,47 +68,45 @@ nav a:hover
 div{
     margin-top: 100px;
 }
+h1, h2{
+    color: #ca541a;
+    margin-left: 500px;
+    margin-bottom: 10px;
+}
+
+div{
+    background-color: #f2ab08;
+    border: 2px solid #ca541a;
+    white-space: pre-wrap;
+    height: 550px;
+    width:1300px;
+    margin-left: 500px;
+    margin-bottom: 50px;
+    
+}
 .image1 {
+    margin-top: 140px;
     overflow:auto;
-    margin-top: -150px;
     float: left;
-    width: auto;
+    width: 400px;
     height: 400px;
     border-radius: 3em;
     border: 5px solid #ca541a; 
 }
 .paragraphe1 {
-    white-space: pre-wrap;
-    height: 150px;
-    padding-top: 5px;
-    margin-bottom: 100px;
-    background-color: #f2ab08;
-    border: 2px solid #ca541a;
-    text-align: center;
+
+    margin-left: 500px;
+    margin-bottom: 25px;
+}
+.odeur{
+    height: 100px;
+    width: auto;
 }
 
-.image2 {
-    overflow: auto;
-    margin-top: -150px;
-    margin-bottom: 50px;
-    float: right;
-    width: 725px;
-    height: 400px;
-    border-radius: 3em;
-    border: 5px solid #ca541a;
-   
-}
-.paragraphe2 {
-    white-space: pre-wrap;
-    height: 170px;
-    padding-top: 5px;
-    background-color: #f2ab08;
-    border: 2px solid #ca541a;
-    text-align: center;
-}
 /*BOUTON*/
 
 button {
+    margin-left: 500px;
     color: black;
     background-color: #ca541a;
     border-radius: 3em;
@@ -117,7 +115,7 @@ button {
     font-size: 1.5em;
     font-family: 'playfair_displayregular';
 }
-button :hover {
+button:hover {
     font-family: 'playfair_displayregular';
     color: #f2ab08;
     font-size: 1.5em;
@@ -126,7 +124,7 @@ button :hover {
     border-color: #ca541a;
     font-weight:bolder;
 }
-button :active {
+button:active {
     font-family: 'playfair_displayregular';
     color: #f2ab08;
     font-size: 1.5em;
@@ -143,5 +141,8 @@ button :visited {
     border-radius: 3em;
     border-color: #ca541a;
     font-weight:bolder;
+}
+.retour{
+    float:right;
 }
 
