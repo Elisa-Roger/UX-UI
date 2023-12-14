@@ -12,7 +12,7 @@
 
 }
 *{
-    margin:0;
+    margin: 0;
     padding: 0;
 }
 
@@ -65,9 +65,7 @@ nav a:hover
    
 
 /*MAIN*/
-div{
-    margin-top: 100px;
-}
+
 h1, h2{
     color: #ca541a;
     margin-left: 500px;
@@ -81,11 +79,11 @@ div{
     height: 550px;
     width:1300px;
     margin-left: 500px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     
 }
 .image1 {
-    margin-top: 140px;
+    margin-top: 80px;
     overflow:auto;
     float: left;
     width: 400px;

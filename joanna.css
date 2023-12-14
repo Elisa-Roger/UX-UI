@@ -91,16 +91,34 @@ body {
     background-color:black;
     color:white;
 }
-
-.img1, .img2 {
-    width:500px;
-    height:500px;
-    /* display:flex;
-    flex-flow:flow-wrap; */
-    border: 5px solid orange ;
-    border-radius: 15px;
+h1{
+    margin-left:700px;
 }
 
+.img1{
+    margin-left: 100px;
+    width:500px;
+    height:500px;
+    border-radius: 3em;
+    border: 5px solid #ca541a; 
+}
+.img2 {
+    margin-left:100px;
+    width:500px;
+    height:500px;
+    border-radius: 3em;
+    border: 5px solid #ca541a;
+}
+.encadre1{
+    height: 150px;
+    padding-top: 5px;
+    text-align: center;
+}
+.encadre2{
+    height: 150px;
+    padding-top: 5px;
+    text-align: center;
+}
 nav {
     display:flex;
 }
